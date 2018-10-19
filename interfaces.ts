@@ -13,5 +13,7 @@ interface Todo{
 function showTodo(todo:Todo){
     console.log(todo.title+": "+todo.text)
     }
-    let myTodo= {title:'Trash',text:"Take the trash"}
+
+    let myTodo= {title:'Trash',text:"Take the trash"};
+    
     showTodo(myTodo);
